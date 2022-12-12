@@ -12,7 +12,7 @@ def featureScale(x):
 
 class logisticRegression():
     def __init__(self, inputSize):
-        self.theta = np.random.rand(inputSize + 1,1) - 0.5
+        self.theta = np.zeros((inputSize + 1,1))
         self.inputShape = inputSize + 1
 
         #print(self.theta)
@@ -49,11 +49,14 @@ class logisticRegression():
                 newTheta[j] = self.theta[j] -  learningRate * gradient
             self.theta = newTheta
 
-            print(self.cost(self.predict(x), y))
+            print(epoch, self.cost(self.predict(x), y))
             costOverTime[epoch] = self.cost(self.predict(x), y)
         plt.figure()
         plt.plot(np.arange(0, epoch + 1), costOverTime)
+        plt.xlabel("iteration")
+        plt.ylabel("cost")
         plt.show()
+
 
 
 
@@ -62,17 +65,27 @@ class logisticRegression():
 
 df = pd.read_csv("./pulsar_data_train.csv")
 df_np = df.to_numpy()
-X_train = df.iloc[:,:-1].to_numpy()
-y_train = df.iloc[:,-1].to_numpy()
-
+X = df.iloc[:,:-1].to_numpy()
 #Clean data
-X_train[np.isnan(X_train)] = 0
+X[np.isnan(X)] = 0
 
-X_scaled_train = featureScale(X_train)
+X_scaled = featureScale(X)
 
 
+#Split data into training set and evalulation set
+
+X_train = X_scaled[627:]
+y_train = df.iloc[627:,-1].to_numpy()
+
+X_eval = X_scaled[0:627]
+y_eval= df.iloc[0:627,-1].to_numpy()
+
+#Set up model
 
 model = logisticRegression(8)
-y_pred = model.predict(X_scaled_train)
+
 #print(model.cost(y_pred, y_train[:, np.newaxis]))
-model.training(X_scaled_train, y_train[:, np.newaxis], 10000, 0.05)
+model.training(X_train, y_train[:, np.newaxis], 10000, 0.01)
+y_pred = model.predict(X_eval)
+cost = model.cost(y_pred, y_eval)
+print("The Final cost",cost)
