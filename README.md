@@ -3,7 +3,7 @@
 
 This paper was done as a research for the IB Math Approaches and Analysis Internal Assessment. 
 
-<img width="200" src="[http://material-bread.org/logo-shadow.svg](https://github.com/Cody-Le/PulsarPrediction/blob/main/ns_pulsar_diagram.png?raw=true)" alt="Pulsar Star Diagram">
+<img width="200" src="https://github.com/Cody-Le/PulsarPrediction/blob/main/ns_pulsar_diagram.png?raw=true" alt="Pulsar Star Diagram">
 </p>
 
 The aim for the research was to classify Pulsar Star Candidate using a logistic regression model. The dataset used in the research was the [HTRU2 Dataset](https://archive.ics.uci.edu/ml/datasets/HTRU2). You can view the paper [here](https://github.com/Cody-Le/PulsarPrediction/blob/main/Math%20IApdf.pdf).
