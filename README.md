@@ -1,6 +1,6 @@
 # Pulsar Candidate Classification Model
 
-This paper was done as a research for the IB as a Math Approaches and Analysis Internal Assessment. 
+This paper was done as a research for the IB Math Approaches and Analysis Internal Assessment. 
 
 ![Pulsar Star Diagram](https://github.com/Cody-Le/PulsarPrediction/blob/main/ns_pulsar_diagram.png?raw=true)
 
