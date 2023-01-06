@@ -1,4 +1,4 @@
-# Logistic Regression Model for Pulsar Candidate Classification
+# Pulsar Candidate Classification Model
 
 This repository is the official implementation of [My Paper Title](https://arxiv.org/abs/2030.12345). 
 
