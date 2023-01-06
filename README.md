@@ -3,7 +3,7 @@
 
 This paper was done as a research for the IB Math Approaches and Analysis Internal Assessment. 
 
-<img width="500" src="https://github.com/Cody-Le/PulsarPrediction/blob/main/ns_pulsar_diagram.png?raw=true" alt="Pulsar Star Diagram">
+<img width="400" src="https://github.com/Cody-Le/PulsarPrediction/blob/main/ns_pulsar_diagram.png?raw=true" alt="Pulsar Star Diagram">
 </p>
 
 The aim for the research was to classify Pulsar Star Candidate using a logistic regression model. The dataset used in the research was the [HTRU2 Dataset](https://archive.ics.uci.edu/ml/datasets/HTRU2). You can view the paper [here](https://github.com/Cody-Le/PulsarPrediction/blob/main/Math%20IApdf.pdf).
@@ -33,7 +33,7 @@ Running this program should train and return the evaluation for the model. Keep 
 
 ## Evaluation
 The model predicted with 94.3% accuracy. 
-![Confusion Matrix](https://github.com/Cody-Le/PulsarPrediction/blob/main/ConfusionMatrix.png?raw=true)
 
+<img width="400" src="https://github.com/Cody-Le/PulsarPrediction/blob/main/ConfusionMatrix.png?raw=true" alt="Confusion Matrix">
 
 More detailed evaluation is written in the paper.
