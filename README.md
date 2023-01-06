@@ -1,7 +1,7 @@
 # Pulsar Candidate Classification Model
 
 This paper was done as a research for the IB as a Math Approaches and Analysis Internal Assessment. 
-![Pulsar Star Diagram]()
+![Pulsar Star Diagram](https://github.com/Cody-Le/PulsarPrediction/blob/main/ns_pulsar_diagram.png?raw=true)
 
 The aim for the research was to classify Pulsar Star Candidate using a logistic regression model. 
 
