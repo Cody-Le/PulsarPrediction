@@ -29,11 +29,11 @@ To train the model(s) in the paper, run this command:
 ```Run the program
 python LogisticRegression.py
 ```
-Running this program should train and return the evaluation for the model. Keep in mind, the data will need to feature scaled first. Other hyperparameter such as starting weights or amount of candidates is used for training and testing can be change in the class object and the running loop respectively.  
+Running this program should train and return the evaluation for the model. Keep in mind, the data will need to feature scaled first. Other hyperparameter such as `starting weights` or `amount of candidates` is used for training and testing can be change in the class object and the running loop respectively.  
 
 ## Evaluation
+The model predicted with 94.3% accuracy. 
 
-To evaluate my model on ImageNet, run:
 
-```eval
-python eval.py --model-file mymodel.pth --benchmark imagenet
+
+More detailed evaluation is written in the paper.
