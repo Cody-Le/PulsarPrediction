@@ -17,15 +17,15 @@ The 3 libraries the model use is pandas, matplotlib and numpy. You can decide to
 ```setup
 pip install numpy pandas matplotlib
 ```
+The data can be obtained by downloading the data from the UCI Archive or you can use the data already contained in the repository. 
 
 
-
-## Training
+## Training and Evaluating
 
 To train the model(s) in the paper, run this command:
 
 ```train
-python train.py --input-data <path_to_data> --alpha 10 --beta 20
+python 
 ```
 
 >📋  Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
