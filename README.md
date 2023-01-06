@@ -32,8 +32,8 @@ python LogisticRegression.py
 Running this program should train and return the evaluation for the model. Keep in mind, the data will need to feature scaled first. Other hyperparameter such as `starting weights` or `amount of candidates` is used for training and testing can be change in the class object and the running loop respectively.  
 
 ## Evaluation
-The model predicted with 94.3% accuracy. 
+The model predicted with 94.3% accuracy. The Confusion Matrix of the `trained model` is showed as below, further evaluation is written in the paper.
 
 <img width="400" src="https://github.com/Cody-Le/PulsarPrediction/blob/main/ConfusionMatrix.png?raw=true" alt="Confusion Matrix">
 
-More detailed evaluation is written in the paper.
+
