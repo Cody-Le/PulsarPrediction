@@ -11,11 +11,14 @@ The aim for the research was to classify Pulsar Star Candidate using a logistic 
 
 To install requirements:
 
+
+The 3 libraries the model use is pandas, matplotlib and numpy. You can decide to install as a package by installing conda or to install them using pip as follow:
+
 ```setup
-pip install -r requirements.txt
+pip install numpy pandas matplotlib
 ```
 
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
+
 
 ## Training
 
