@@ -33,7 +33,7 @@ Running this program should train and return the evaluation for the model. Keep 
 
 ## Evaluation
 The model predicted with 94.3% accuracy. 
-
+![Confusion Matrix](https://github.com/Cody-Le/PulsarPrediction/blob/main/ConfusionMatrix.png?raw=true)
 
 
 More detailed evaluation is written in the paper.
