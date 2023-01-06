@@ -24,11 +24,10 @@ The data can be obtained by downloading the data from the UCI Archive or you can
 
 To train the model(s) in the paper, run this command:
 
-```train
-python 
+```Run the program
+python LogisticRegression.py
 ```
-
->📋  Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
+Running this program should train and return the evaluation for the model. Keep in mind, the data will need to feature scaled first. Other hyperparameter such as starting weights or amount of candidates is used for training and testing can be change in the class object and the running loop respectively.  
 
 ## Evaluation
 
