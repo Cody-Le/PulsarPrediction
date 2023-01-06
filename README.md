@@ -1,8 +1,10 @@
+<p align = "center">
 # Pulsar Candidate Classification Model
 
 This paper was done as a research for the IB Math Approaches and Analysis Internal Assessment. 
 
 ![Pulsar Star Diagram](https://github.com/Cody-Le/PulsarPrediction/blob/main/ns_pulsar_diagram.png?raw=true)
+</p>
 
 The aim for the research was to classify Pulsar Star Candidate using a logistic regression model. The dataset used in the research was the [HTRU2 Dataset](https://archive.ics.uci.edu/ml/datasets/HTRU2). You can view the paper [here](https://github.com/Cody-Le/PulsarPrediction/blob/main/Math%20IApdf.pdf).
 
